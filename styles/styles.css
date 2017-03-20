@@ -1,0 +1,60 @@
+body
+{
+  text-align: center;
+}
+
+h1
+{
+  font-size: 72px;
+  font-family: 'Clicker Script', cursive;
+  color: rgb(0,128,128);
+}
+
+h2
+{
+  font-weight: lighter;
+  font-size: 18px;
+  margin: 0;
+}
+
+li
+{
+  list-style: none;
+  display: inline-block;
+}
+
+.icon
+{
+  width: 100px;
+  height: 100px;
+  vertical-align: middle;
+}
+
+a
+{
+  color: black;
+  font-size: 18px;
+  font-style: italic;
+  transition: 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover
+{
+  color: grey;
+}
+
+hr::before
+{
+  content: "................";
+  color: grey;
+  letter-spacing: 5em;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+hr
+{
+  border: 0;
+}
